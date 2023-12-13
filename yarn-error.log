@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/shailusha/.nvm/versions/node/v16.14.2/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add react-native-granite-cli
+
+PATH: 
+  /Users/shailusha/.pyenv/shims:/Users/shailusha/Library/Android/sdk/tools:/Users/shailusha/Library/Android/sdk/tools/bin:/Users/shailusha/Library/Android/sdk/platform-tools:/Users/shailusha/.flashlight/bin:/Users/shailusha/bin:/Users/shailusha/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/bin:/bin:/Users/shailusha/.cache/zsh4humans/v5/fzf/bin:/Users/shailusha/Applications/flutter/bin:/Users/shailusha/.rvm/bin:/Users/shailusha/.maestro/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://thoughts2binary-136817635125.d.codeartifact.ap-south-1.amazonaws.com/npm/react-native-mobile-public/react-native-granite-cli: Unauthenticated: request used expired credentials. Please renew your credentials.
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at Gunzip.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at Gunzip.emit (node:events:526:28)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "bootsplash_script",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "bin": {
+      "script_name": "./index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

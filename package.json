@@ -1,0 +1,17 @@
+{
+  "name": "bootsplash_script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "script_name": "./index.js"
+  },
+  "scripts": {
+    "update": "npm uninstall --location=global . && npm install --location=global . && clear",
+    "build": "npm link"
+  },
+  "dependencies": {
+    "react-native-granite-cli": "^0.0.24",
+    "xml2js": "^0.6.2"
+  }
+}
