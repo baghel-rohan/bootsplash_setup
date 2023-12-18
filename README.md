@@ -2,6 +2,10 @@
 
 ---
 
+## What Script will provide
+
+- It will add and generate images for the multiple flavours of you android project
+
 ## Basic Setup
 
 - Add react-native-bootsplash@4.7.5 package in your project.
@@ -11,7 +15,7 @@
 
 ## Run the script
 
-- After the above setup run the script (arguments if needed, preferred default arguments).
+- After the above setup `npm link` inside bootsplash_script project, and then run the `setup_bootsplash` in root of project (arguments if needed, preferred default arguments).
 
 ### iOS
 
@@ -82,7 +86,7 @@ dependencies {
   // …
 ```
 
-3. Edit your `android/app/src/main/res/values/styles.xml` file:
+3. If the following wasn't added automatically after running the project please add manually :satisfied:, Edit your `android/app/src/main/res/values/styles.xml` file:
 
 ```xml
 <resources>
@@ -103,7 +107,7 @@ dependencies {
 
 #### Usage
 
-```js
+```jsx
 import RNBootSplash from "react-native-bootsplash"
 
 RNBootSplash.hide() // immediate
